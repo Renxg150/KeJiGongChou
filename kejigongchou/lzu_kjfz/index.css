@@ -1,0 +1,26 @@
+.introduction{
+    width: 800.997px;
+}
+
+html,body {
+    height: 100%;
+}
+body {
+    background:#8ba4ea ;
+}
+
+.card{
+    width: 800.997px;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity:0.5;
+}
+
+form {
+    width: 800.997px;
+}
+
+.formname1{
+
+}
+

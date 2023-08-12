@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>众筹科技：我为兰州大学科研发展建言献策</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    </head>
+<body>
+<script src="./bootstrap/jquery.slim.min.js"></script>
+<script src="./bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./axios/axios.min.js"></script>
+<script src="./index.js"></script>
+
+
+<img src="./data/head2.png" class="rounded mx-auto d-block">
+<div class="d-flex justify-content-around">
+    <div class="card" >
+        <div class="card-body ">
+            兰州大学科研工作在“四个面向”原则下，为更好地服务国家战略，服务地方高质量发展，将深挖学校科研潜力，拓宽科研业务
+            渠道，不断提升学校整体科研实力，加快高水平国家战略科技力量建设步伐，科研院面向全校师生员工、
+            广大校友和社会各界力量，启动“众筹科技：我为兰州大学科研发展建言献策”专题。
+
+        </div>
+        <div class="card-body">
+            此专题将众筹有利于兰州大学科研发展的意见和建议，包括但不限于科研发展思路、科研发展方向、科研管理机制优化改革、科研平台建设、科研团队组建、科研评价标准、重大科技项目攻关和区域科技合作等方面内容。
+        </div>
+    </div>
+</div>
+<br>
+<div class="d-flex justify-content-around">
+    <div class="card" >
+        <div class="card-body ">
+            基本信息
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="d-flex justify-content-around">
+
+    <form>
+        <div class="row">
+            <div class="col formname1 col-2 align-middle font-weight-bold">
+                姓名：
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="姓名" id="name">
+            </div>
+            <div class="col formname1 col-2 align-middle font-weight-bold">
+                手机：
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="手机" id="phone">(手机是必填项)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col formname1 col-2 align-middle font-weight-bold">
+                单位名称：
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="单位名称" id="dwmc">
+            </div>
+            <div class="col formname1 col-2 align-middle font-weight-bold">
+                职务/职称：
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="职务/职称" id="zwzc">
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+<div class="d-flex justify-content-around">
+    <div class="card" >
+        <div class="card-body ">
+            我的建议
+        </div>
+    </div>
+</div>
+<br>
+<div class="d-flex justify-content-around">
+    <form>
+<!--        <div class="form-group">-->
+<!--            <label for="exampleFormControlSelect1">选择建议方向</label>-->
+<!--            <select class="form-control" id="exampleFormControlSelect1">-->
+<!--                <option>科研发展思路</option>-->
+<!--                <option>科研发展方向</option>-->
+<!--                <option>科研管理机制优化改革</option>-->
+<!--                <option>科研平台建设</option>-->
+<!--                <option>科研团队组建</option>-->
+<!--                <option>科研评价标准</option>-->
+<!--                <option>重大科技项目攻关</option>-->
+<!--                <option>区域科技合作</option>-->
+<!--                <option>其他方向</option>-->
+<!--            </select>-->
+<!--        </div>-->
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">科研发展思路</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">科研发展方向</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">科研管理机制优化改革</label>
+            <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">科研团队组建</label>
+            <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">重大科技项目攻关</label>
+            <textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">区域科技合作</label>
+            <textarea class="form-control" id="exampleFormControlTextarea6" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">其它</label>
+            <textarea class="form-control" id="exampleFormControlTextarea7" rows="3"></textarea>
+        </div>
+    </form>
+</div>
+<div class="d-flex justify-content-around">
+    <button type="submit" class="btn btn-primary" onclick="upload_data()">提交建议</button>
+</div>
+
+
+</body>
+</html>
